@@ -1,0 +1,459 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(image/bg.jpg);
+    width: 100%;
+    height: 116vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;;
+
+}
+.header button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    margin: 5px 19px;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button{
+    border: 0;
+    background-color: #db0001;
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column; 
+    
+    flex-wrap: wrap;
+    width: 100%;
+    height: 105vh;
+
+
+}
+.header-content h1{
+    font-size: 45px;
+}
+.header-content h4{
+    font-size: 25px;
+}
+.header-content h5{
+    font-size: 18px;
+}
+.email-sign{
+    display: flex;
+   border: 4px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.email-sign input
+{
+    
+    height: 58px;
+    border: none;
+    font-size: 22px;
+    width: 480px;
+
+}
+.email-sign button{
+
+background-color: #db0001;
+width: 200px;
+border: none;
+height: 60px;
+color: #fff;
+font-weight: bold;
+font-size: 22px;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid gray;
+    margin-top: 4px;
+   
+  }
+
+.text{
+    padding-top: 81px;
+   
+}
+.text h1{
+    font-weight: 1000;
+    font-size: 58px;
+}
+.text p{
+    font-size: 20px;
+}
+
+.frequent{
+    border-top: 4px solid gray;
+    margin-top: 5px;
+}
+
+.frequent h2{
+    font-size: 57px;
+    font-weight: 800;
+    text-align: center;
+}
+.qn-1{
+   
+    margin: 10px 170px;
+}
+.qn-1 button{
+    background-color: rgb(45,45,45);
+    border: none;
+    width: 100%;
+}
+.qn-1 button:hover{
+    background-color: rgb(65, 61, 61);;
+}
+.qn-1 button p{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: left;
+}
+div#paragraph{
+    margin: 0px 170px;
+    background-color: rgb(45,45,45);
+    display: none;
+   
+   
+}
+div#paragraph p{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 1px;
+    
+}
+div#paragraphh{
+    margin: 0px 170px;
+    background-color: rgb(45,45,45);
+    display: none;
+}
+div#paragraphh p{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 1px;
+    
+}
+div#paragraph2{
+    margin: 0px 170px;
+    background-color: rgb(45,45,45);
+    display: none;
+}
+div#paragraph2 p{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 1px;
+    
+}
+div#paragraph3{
+    margin: 0px 170px;
+    background-color: rgb(45,45,45);
+    display: none;
+}
+div#paragraph3 p{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 1px;
+    
+}
+div#paragraph4{
+    margin: 0px 170px;
+    background-color: rgb(45,45,45);
+    display: none;
+}
+div#paragraph4 p{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 1px;
+    
+}
+div#paragraph5{
+    margin: 0px 170px;
+    background-color: rgb(45,45,45);
+    display: none;
+}
+div#paragraph5 p{
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 1px;
+    
+}
+
+.fa-plus:before {
+   color: white;
+    float: right;
+    font-size: 40px;
+    padding-right: 12px;
+    padding-top: 12px;
+   
+} 
+
+
+.header-content.search{
+   height: 72vh;
+   border-bottom: 4px solid gray;
+}
+
+
+.col1 ul{
+    list-style: none;
+}
+.col1 ul li{
+    text-decoration: none;
+    padding: 5px;
+}
+.col1 ul li a{
+    color: white;
+}
+.col1 p{
+    margin: 15px 85px;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+button.btn{
+    margin: 35px 42px;
+    padding: 9px 27px;
+    border-radius: 10px;
+}
+select.col{
+    border: none;
+}
+
+
+
+
+
+
+@media (min-width:280px) and (max-width:491px){
+
+    .logo {
+        width: 74px;
+    }
+    nav button{
+        margin-right: 0px;
+    }
+    .feature {
+        display: block;
+        padding: 0px 2px;
+        border-top: 4px solid gray;
+
+        .header-content.search {
+            height: 56vh;
+        } 
+       
+}
+.text h1{
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+
+
+}
+.text p{
+    font-size: 20px;
+    text-align: center;
+}
+.image img{
+    width: 100%;
+}
+.email-sign input {
+    
+    text-align: center;
+    padding: 0px 10px;
+    height: 62px;
+    width: 100%;
+}
+.header-content {
+    text-align: center;
+    margin-top: -11px;
+}
+.email-sign button {
+    margin: 18px;
+    width: 100%;
+}
+.header{
+    height: 112vh;
+}
+.qn-1{
+   
+    margin: 0px 8px;
+
+}
+div.paragraph{
+    margin: 0px 8px;
+
+}
+.foot{
+    margin: 0px -58px;
+    display:block
+}
+div#paragraph{
+    margin: 0px 9px;
+    background-color: rgb(45,45,45);
+    display: none;
+   
+   
+}
+    
+
+div#paragraphh{
+    margin: 0px 9px;
+    
+}
+
+div#paragraph2{
+    margin: 0px 9px;
+  
+}
+
+div#paragraph3{
+    margin: 0px 9px;
+    
+}
+
+    
+
+div#paragraph4{
+    margin: 0px 9px;
+    
+}
+
+    
+
+div#paragraph5{
+    margin: 0px 9px;
+    
+}
+
+
+}
+
+
+
+@media(min-width:491px) and (max-width:967px){
+    .header{
+        height: 109vh;
+    }
+    .email-sign{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       border: 4px;
+        
+    }
+    .feature {
+        display: block;
+        padding: 0px 2px;
+        border-top: 4px solid gray;
+        margin-top: 77px;
+       
+    
+       
+}
+.header-content.search {
+    height: 78vh;
+}
+.header-content {
+    text-align: center;
+    margin-top: -106px;
+}
+
+
+.text h1{
+    font-weight: 800;
+    font-size: 79px;
+    text-align: center;
+
+
+}
+.text p{
+    font-size: 34px;
+    text-align: center;
+}
+.image img{
+    width: 100%;
+}
+.qn-1{
+   
+    margin: 0px 20px;
+
+}
+div.paragraph{
+    margin: 0px 20px;
+
+}
+
+}
+
+
+
+
+
+@media (min-width:960px)  {
+    
+        
+    .text {
+        padding: 23px 0px;
+    }
+    .image img{
+        width: 500px;
+    padding-left: 28px;
+    }  
+    .text h1{
+        font-weight: 900;
+        font-size: 54px;
+        text-align: left;
+    
+    
+    }
+    .text p{
+        font-size: 34px;
+        text-align: left;
+    }   
+    .feature {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        border-top: 4px solid gray;
+       
+        
+}
+}
